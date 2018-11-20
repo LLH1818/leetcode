@@ -1,4 +1,4 @@
-def permute(nums):
+def permute1(nums):           # 插入法
     """
     :type nums: List[int]
     :rtype: List[List[int]]
@@ -12,4 +12,5 @@ def permute(nums):
         perms = new_perms
     return perms
 
-permute([1, 2, 3])
+
+permute1([1, 2, 3])
